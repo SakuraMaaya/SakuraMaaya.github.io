@@ -3,10 +3,10 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle:
+title: Ayaneru的随笔
+subtitle: 一位社畜DD( 随便写点东西的地方
 description:
-author: John Doe
+author: Ayaneru
 language:
 timezone:
 
@@ -76,5 +76,8 @@ theme: landscape
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
-deploy:
-  type:
+deploy: 
+  type: git
+  repo: 
+    local: git@192.168.10.202:hexo.git
+    github: git@github.com:SakuraMaaya/SakuraMaaya.github.io.git,master
